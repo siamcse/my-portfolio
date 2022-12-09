@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contact = () => {
     return (
-        <div name='contact' className='bg-gradient-to-b from-gray-200 to-gray-100 md:h-screen text-gray-800 pt-20'>
+        <div data-aos="fade-right" name='contact' className='bg-gradient-to-b from-gray-200 to-gray-100 md:h-screen text-gray-800 pt-20'>
             <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
                 <div className='pb-8'>
                     <p className='text-4xl font-bold inline border-b-4 border-gray-500'>Contact</p>
@@ -14,19 +14,19 @@ const Contact = () => {
                             type="text"
                             name="name"
                             placeholder='Enter your name'
-                            className='p-2 bg-slate-50 border-2 rounded-md text-gray-800 focus:outline-none'
+                            className='p-2 bg-gray-200 border-2 border-black rounded-md text-gray-800 focus:outline-none'
                         />
                         <input
                             type="email"
                             name="email"
                             placeholder='Enter your email'
-                            className='p-2 bg-slate-50 border-2 rounded-md text-gray-800 focus:outline-none'
+                            className='p-2 bg-gray-200 border-2 border-black  rounded-md text-gray-800 focus:outline-none'
                         />
                         <textarea
                             name='message'
                             rows="10"
                             placeholder='Your message'
-                            className='p-2 bg-slate-50 border-2 rounded-md text-gray-800 focus:outline-none'
+                            className='p-2 bg-gray-200 border-2 border-black rounded-md text-gray-800 focus:outline-none'
                         ></textarea>
                         <input type="submit" value="Let's Talk" className='bg-gradient-to-b from-cyan-500 to-blue-500 text-gray-100 px-6 py-3 my-8 mx-auto flex items-center justify-center rounded-md hover:scale-105 duration-300' />
                     </form>
