@@ -67,8 +67,8 @@ const Experience = () => {
         },
     ]
     return (
-        <div data-aos="fade-left" name='experience' className='bg-gradient-to-b from-gray-100 to-gray-200 text-gray-800 md:h-screen pt-20'>
-            <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
+        <div  name='experience' className='bg-gradient-to-b from-gray-100 to-gray-200 text-gray-800 md:h-screen pt-20'>
+            <div data-aos="fade-left" className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
                 <div className='pb-8'>
                     <p className='text-4xl font-bold inline border-b-4 border-gray-500'>Experience</p>
                     <p className='py-6'>Some of experience</p>

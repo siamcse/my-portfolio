@@ -1,5 +1,6 @@
 import ScrollToTop from "react-scroll-to-top";
 import About from "./components/About";
+import Blog from "./components/Blog";
 import Contact from "./components/Contact";
 import Experience from "./components/Experience";
 import Home from "./components/Home";
@@ -16,9 +17,10 @@ function App() {
       <About />
       <Portfolio />
       <Experience />
+      <Blog />
       <Contact />
       <SocialLinks />
-      <ScrollToTop smooth style={{backgroundColor:"gray"}}/>
+      <ScrollToTop smooth style={{ backgroundColor: "gray" }} />
     </div>
   );
 }

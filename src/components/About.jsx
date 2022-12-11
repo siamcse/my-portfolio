@@ -2,8 +2,8 @@ import React from 'react';
 
 const About = () => {
     return (
-        <div data-aos="fade-left" name='about' className='w-full h-screen bg-gradient-to-b from-gray-100 to-gray-200 text-gray-800 pt-20 snap-center'>
-            <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center items-center w-full h-full'>
+        <div  name='about' className='w-full h-screen bg-gradient-to-b from-gray-100 to-gray-200 text-gray-800 pt-20 snap-center'>
+            <div data-aos="fade-left" className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center items-center w-full h-full'>
                 <div className='pb-8'>
                     <p className='text-4xl font-bold inline border-b-4 border-gray-500'>
                         About
